@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    background-color: #2e2e2e;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.relogio {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 200px;
+    width: 550px;
+    background-color: #383838;
+    box-shadow: 0px 8px 10px rgba(5, 5, 5, 0.9);
+}
+
+.relogio div {
+    height: 170px;
+    width: 160px;
+    background-color: rgb(26, 25, 25);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.7);
+    letter-spacing: 3px;
+}
+
+.relogio span {
+    font-size: 60px;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.relogio span.tempo {
+    font-size: 18px;
+}
+
+.calendario {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+    width: 200px;
+    background-color: #383838;
+    box-shadow: 0px 8px 10px rgba(5, 5, 5, 0.9);
+}
+
+.calendario div {
+    background-color: rgb(26, 25, 25);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    height: 40px;
+    width: 40px;
+}
+
+.calendario span {
+    font-size: 15px;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.calendario .ano {
+    width: 80px;
+}
